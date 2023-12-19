@@ -10,13 +10,12 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "php": "^7.4 || ^8",
+    "php": "~8.0.0||~8.1.0||~8.2.0||~8.3.0",
     "ext-sqlite3": "*"
   },
   "require-dev": {
-    "codeception/codeception": "^4"
+    "codeception/codeception": "^5"
   },
-  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Udger\\": "src/"

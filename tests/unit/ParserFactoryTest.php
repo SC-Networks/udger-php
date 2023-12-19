@@ -2,13 +2,15 @@
 
 namespace tests\Udger;
 
+use Codeception\Test\Unit;
 use Udger\ParserFactory;
+use UnitGuy;
 
-class ParserFactoryTest extends \Codeception\TestCase\Test
+class ParserFactoryTest extends Unit
 {
 
     /**
-     * @var \UnitGuy
+     * @var UnitGuy
      */
     protected $guy;
     
