@@ -2,17 +2,19 @@
 
 namespace tests\Udger\Helper;
 
+use Codeception\Test\Unit;
 use Udger\Helper\IP;
+use UnitGuy;
 
 /**
  *
  * @author tiborb
  */
-class ParserFactoryTest extends \Codeception\TestCase\Test
+class ParserFactoryTest extends Unit
 {
 
     /**
-     * @var \UnitGuy
+     * @var UnitGuy
      */
     protected $guy;
     

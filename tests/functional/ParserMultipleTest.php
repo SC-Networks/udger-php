@@ -2,13 +2,17 @@
 
 namespace tests\Udger;
 
+use Codeception\Stub;
+use Codeception\Test\Unit;
+use Udger\Parser;
 use Udger\ParserInterface;
+use UnitGuy;
 
-class ParserMultipleTest extends \Codeception\TestCase\Test
+class ParserMultipleTest extends Unit
 {
 
     /**
-     * @var \UnitGuy
+     * @var UnitGuy
      */
     protected $guy;
 
@@ -20,8 +24,8 @@ class ParserMultipleTest extends \Codeception\TestCase\Test
 
     protected function _before()
     {
-        $this->parser = new \Udger\Parser(
-            \Codeception\Util\Stub::makeEmpty("Udger\Helper\IP")
+        $this->parser = new Parser(
+            Stub::makeEmpty("Udger\Helper\IP")
         );
         $this->parser->setDataFile(dirname(__DIR__) . "/fixtures/udgercache/udgerdb_v3.dat");
     }
