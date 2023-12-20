@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.2.0] - 2023-12-20
+### CHANGED
+- Drop php7 support
+- Update codeception to the most recent version
+- Add recent php-version to github workflow
+
 ## [4.1.0] - 2021-04-14
 ### CHANGED
 Remove Logger
