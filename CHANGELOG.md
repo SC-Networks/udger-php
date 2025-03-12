@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.3.0] - 2025-03-12
+### CHANGED
+- Add php8.4 support
+
 ## [4.2.0] - 2023-12-20
 ### CHANGED
 - Drop php7 support
