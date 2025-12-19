@@ -1,4 +1,7 @@
 # Changelog
+## [4.4.0] - 2025-12-19
+### CHANGED
+- Add php8.5 support
 
 ## [4.3.0] - 2025-03-12
 ### CHANGED
